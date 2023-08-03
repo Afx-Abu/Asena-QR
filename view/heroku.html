@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" href="https://inrl-deploy.vercel.app/style.css"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="https://inrl-deploy.vercel.app/favicon.png"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Inrl-Deploy</title> 
+ </head> 
+ <body>
+  <div class="stars">
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+</div> 
+<script>
+let username = prompt("Enter your Github name", "inrl");
+if((username==null)||(username=="inrl")){
+  alert("invalid or no name you entered!");
+  window.location.href=`https://inrl-web.vercel.app/deploy/heroku`
+} else if(username != null) {
+  alert("YOUR GITHUB URL - https://github.com/"+ username);
+  window.open(`https://heroku.com/deploy/?template=https://github.com/${username}/inrl-bot-md`) ;
+}
+</script> 
+ </body>
+</html>
